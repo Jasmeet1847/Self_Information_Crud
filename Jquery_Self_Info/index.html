@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="//code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css"
+    />
+    <link rel="stylesheet" href="/resources/demos/style.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="first-line">
+        <div class="name-div">
+          <h5>First Name*</h5>
+          <input type="text" id="name" /><br />
+          <span id="name-error"></span>
+        </div>
+        <div class="lastname-div">
+          <h5>Last Name*</h5>
+          <input type="text" id="lastname" /><br />
+          <span id="lastname-error"></span>
+        </div>
+      </div>
+      <div class="second-line">
+        <div>
+          <h5>Email*</h5>
+          <input type="text" id="email" /><br />
+          <span id="email-error"></span>
+        </div>
+      </div>
+      <div class="third-line">
+        <div class="father-div">
+          <h5>Father Name</h5>
+          <select id="father"></select
+          ><br />
+          <span id="father-error"></span>
+        </div>
+        <div class="mother-div">
+          <h5>Mother Name</h5>
+          <select id="mother"></select
+          ><br />
+          <span id="mother-error"></span>
+        </div>
+      </div>
+      <div class="fourth-line">
+        <div class="gender-div">
+          <h5>Gender*</h5>
+          <input type="text" id="gender" /><br />
+          <span id="gender-error"></span>
+        </div>
+        <div class="address-div">
+          <h5>Address</h5>
+          <textarea id="address"></textarea><br />
+          <span id="address-error"></span>
+        </div>
+      </div>
+      <div class="fifth-line">
+        <button type="button" id="savebtn">Save</button>
+      </div>
+      <div class="search">
+        <input type="text" id="search" placeholder="search" /><br />
+        <span id="search-error"></span>
+      </div>
+      <div class="table">
+        <table border="1">
+          <thead>
+            <th>Full Name</th>
+            <th>Father Name</th>
+            <th>Mother Name</th>
+            <th>Email</th>
+            <th>Gender</th>
+            <th>Address</th>
+            <th>Actions</th>
+          </thead>
+          <tbody id="root"></tbody>
+        </table>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

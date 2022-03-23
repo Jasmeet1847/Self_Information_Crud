@@ -1,0 +1,39 @@
+.first-line {
+  display: flex;
+  justify-content: center;
+}
+.second-line {
+  display: flex;
+  justify-content: center;
+}
+.third-line {
+  display: flex;
+  justify-content: center;
+}
+.fourth-line {
+  display: flex;
+  justify-content: center;
+}
+.name-div {
+  margin-inline-end: 20px;
+}
+.father-div {
+  margin-inline-end: 20px;
+}
+.gender-div {
+  margin-inline-end: 20px;
+}
+.fifth-line {
+  display: flex;
+  justify-content: center;
+}
+table {
+  width: 100%;
+}
+#father {
+  width: 160px;
+  margin-inline-end: 20px;
+}
+#mother {
+  width: 160px;
+}
